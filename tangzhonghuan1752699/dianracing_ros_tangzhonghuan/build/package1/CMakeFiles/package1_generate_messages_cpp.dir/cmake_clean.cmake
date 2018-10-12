@@ -1,0 +1,9 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/package1_generate_messages_cpp"
+  "/home/hh21/dianracing_ros_tangzhonghuan/devel/include/package1/abccalc.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/package1_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

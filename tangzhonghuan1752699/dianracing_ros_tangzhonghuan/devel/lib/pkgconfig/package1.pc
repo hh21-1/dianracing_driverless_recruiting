@@ -1,0 +1,8 @@
+prefix=/home/hh21/dianracing_ros_tangzhonghuan/devel
+
+Name: package1
+Description: Description of package1
+Version: 0.0.0
+Cflags: -I/home/hh21/dianracing_ros_tangzhonghuan/devel/include
+Libs: -L/home/hh21/dianracing_ros_tangzhonghuan/devel/lib 
+Requires: roscpp rospy std_msgs
