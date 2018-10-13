@@ -14,5 +14,6 @@ int main(int argc, char **argv){
 	ros::ServiceServer s = n.advertiseService("abccalc", calc);
 	ROS_INFO("Ready.");
 	ros::spin();
+	return 0;
 }
 	
